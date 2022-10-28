@@ -6,16 +6,16 @@ const jobSchema = mongoose.Schema(
       type: String,
     },
     contactInfo: {
-        email: { type: String },
-        fullName: { type: String },
-        phone: { type: Number }
+      email: { type: String },
+      fullName: { type: String },
+      phone: { type: Number },
     },
     jobUrl: {
-        type: String,
+      type: String,
     },
     payout: {
-        type: NumberDecimal,
-    }
+      type: NumberDecimal,
+    },
   },
   {
     timestamps: true,
